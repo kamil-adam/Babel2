@@ -15,7 +15,7 @@
 	</properties>
 
 	<modules>
-		<module>jooq</module>
+<!-- 		<module>data</module> -->
 	</modules>
 </project>
   
