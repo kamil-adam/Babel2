@@ -4,6 +4,7 @@
 	<groupId>pl.writeonly</groupId>
 	<artifactId>scalar</artifactId>
 	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>${project.artifactId}</name>
 	<description>Moon Fish</description>
 	<licenses>
