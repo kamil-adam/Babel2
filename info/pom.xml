@@ -16,8 +16,8 @@
 
 	<modules>
 		<module>dtos</module>
-		<module>jooq</module>
-		<module>qdsl</module>
+<!-- 		<module>jooq</module> -->
+<!-- 		<module>qdsl</module> -->
 	</modules>
 </project>
   
