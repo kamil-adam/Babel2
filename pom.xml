@@ -24,6 +24,7 @@
 
 	<modules>
 <!-- 		<module>apps</module> -->
+		<module>util</module>
 		<module>info</module>
 		<module>conf</module>
 		<module>guis</module>
