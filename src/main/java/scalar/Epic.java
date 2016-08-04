@@ -49,11 +49,11 @@ public abstract class Epic<T> {
 	    }
 
 	    public static <T> Epic<T> win(T t) {
-	        return new Win(t);
+	        return new Win<T>(t);
 	    }
 
 	    public static <T> Epic<T> fail(T t, String message) {
-	        return new Fail(t, message);
+	        return new Fail<T>(t, message);
 	    }
 
 	    public T result() {

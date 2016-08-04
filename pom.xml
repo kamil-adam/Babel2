@@ -23,7 +23,7 @@
  </properties>
 
  <modules>
-<!--   <module>apps</module> -->
+  <!-- <module>apps</module> -->
   <module>misc</module>
   <module>conf</module>
   <module>info</module>
@@ -58,7 +58,22 @@
   </dependency>
  </dependencies>
 
+
  <build>
+  <pluginManagement>
+   <plugins>
+    <plugin>
+     <groupId>org.codehaus.mojo</groupId>
+     <artifactId>findbugs-maven-plugin</artifactId>
+     <version>3.0.3</version>
+    </plugin>
+    <plugin>
+     <groupId>org.apache.maven.plugins</groupId>
+     <artifactId>maven-pmd-plugin</artifactId>
+     <version>3.6</version>
+    </plugin>
+   </plugins>
+  </pluginManagement>
   <sourceDirectory>src/main/scala</sourceDirectory>
   <testSourceDirectory>src/test/scala</testSourceDirectory>
   <plugins>
@@ -109,4 +124,13 @@
    </plugin>
   </plugins>
  </build>
+ <reporting>
+  <plugins>
+   <plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>findbugs-maven-plugin</artifactId>
+    <version>3.0.3</version>
+   </plugin>
+  </plugins>
+ </reporting>
 </project>
