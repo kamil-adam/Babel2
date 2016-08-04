@@ -15,7 +15,7 @@
 	</properties>
 
 	<modules>
-		<module>dyna</module>
+		<module>impl</module>
 <!-- 		<module>util</module> -->
 	</modules>
 </project>
