@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+ 
+        <appender name="DBUNIT.DEBUG.LOG" class="org.apache.log4j.DailyRollingFileAppender">
+                <param name="File" value="logs/dbunit.debug.log" />
+                <param name="Append" value="false" />
+                <param name="ImmediateFlush" value="true" />
+                <param name="Threshold" value="DEBUG" />
+                <layout class="org.apache.log4j.PatternLayout">
+                        <param name="ConversionPattern" value="%d %-5p [%t] %c %C
+                                (%F:%L) - %m\n" />
+                </layout>
+        </appender>
+ 
+        <logger name="com.company.sql" additivity="false">
+                <level value="DEBUG" />
+                <appender-ref ref="DBUNIT.DEBUG.LOG" />
+        </logger>
+ 
+        <root>
+                <level value="debug" />
+                <appender-ref ref="DBUNIT.DEBUG.LOG" />
+        </root>
+</log4j:configuration>
