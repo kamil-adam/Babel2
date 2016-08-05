@@ -1,6 +1,7 @@
 package pl.writeonly.scala.util
 
-import scala.util.logging.Logged
+//import scala.util.logging.Logged
+import org.apache.logging.log4j.Logger
 
 trait ToBoolean {
   implicit def toBoolean(it: Int) = (it != 0)
