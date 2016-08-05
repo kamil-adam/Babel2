@@ -1,6 +1,6 @@
 package pl.writeonly.babel.entities
 
-import org.apache.commons.lang3.builder.ReflectionToStringBuilder
+//import org.apache.commons.lang3.builder.ReflectionToStringBuilder
 import com.google.gson.Gson
 import javax.jdo.annotations._
 import pl.writeonly.scala.util.ToBoolean
@@ -31,7 +31,7 @@ class Entity extends Serializable with ToBoolean {
   //    || o.isInstanceOf[Idable] && o.asInstanceOf[Idable].id && o.asInstanceOf[Idable].id.compare(id)
   //    || o.isInstanceOf[AnyRef] && o.asInstanceOf[AnyRef].hashCode.equals(this));
 
-  def reflectionToString = ReflectionToStringBuilder.toString(this)
+  //def reflectionToString = ReflectionToStringBuilder.toString(this)
   def toJson = new Gson().toJson(this)
   override def toString = toJson
   override def hashCode() = if (id) id.hashCode else 0

@@ -1,23 +1,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+ <modelVersion>4.0.0</modelVersion>
 
-	<artifactId>conf</artifactId>
-	<packaging>pom</packaging>
+ <parent>
+  <groupId>pl.writeonly.scalar</groupId>
+  <artifactId>scalar</artifactId>
+  <version>1.0-SNAPSHOT</version>
+ </parent>
+ <artifactId>conf</artifactId>
+ <packaging>pom</packaging>
 
-	<parent>
-		<groupId>pl.writeonly</groupId>
-		<artifactId>scalar</artifactId>
-		<version>1.0-SNAPSHOT</version>
-	</parent>
+ <properties>
+ </properties>
 
-	<properties>
-	</properties>
-
-	<modules>
-		<module>dbms</module>
-<!-- 		<module>dpos</module> -->
-		<module>daos</module>
-	</modules>
+ <modules>
+  <module>dbms</module>
+  <module>dpos</module>
+<!--   <module>daos</module> -->
+ </modules>
 </project>
   
