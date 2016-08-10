@@ -1,6 +1,6 @@
 package pl.writeonly.babel.daos;
 
-import com.weiglewilczek.slf4s.Logging
+import com.typesafe.scalalogging.StrictLogging
 import java.math.BigInteger
 trait DaoCrud  {
   def persist[T](t: T): T

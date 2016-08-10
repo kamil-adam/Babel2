@@ -11,11 +11,11 @@
 	<description>Test for Java + Scala compilation</description>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.scala-lang</groupId>
-			<artifactId>scala-library</artifactId>
-			<version>2.7.2</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.scala-lang</groupId> -->
+<!-- 			<artifactId>scala-library</artifactId> -->
+<!-- 			<version>2.7.2</version> -->
+<!-- 		</dependency> -->
 	</dependencies>
 
 	<build>

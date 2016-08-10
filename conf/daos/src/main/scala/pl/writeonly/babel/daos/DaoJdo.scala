@@ -6,7 +6,7 @@ import org.springframework.orm.jdo.support.JdoDaoSupport
 import pl.writeonly.babel.entities.Entity
 import scala.collection.JavaConversions._
 import scala.collection.mutable.ListBuffer
-import com.weiglewilczek.slf4s.Logging
+import com.typesafe.scalalogging.StrictLogging
 import org.springframework.orm.jdo.JdoCallback
 import javax.jdo.PersistenceManager
 import javax.jdo.JDOHelper
