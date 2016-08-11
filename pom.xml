@@ -28,7 +28,8 @@
   <module>conf</module>
   <module>info</module>
   <module>repl</module>
-  <module>guis</module>
+  <module>view</module>
+  <module>main</module>
  </modules>
 
  <dependencies>
