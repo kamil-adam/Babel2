@@ -15,7 +15,8 @@
 	</properties>
 
 	<modules>
-		<module>xgui</module>
+<!-- 		<module>xgui</module> -->
+		<module>xswt</module>
 	</modules>
 </project>
   
