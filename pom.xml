@@ -29,6 +29,7 @@
   <module>info</module>
   <module>repl</module>
   <module>view</module>
+  <module>glue</module>
   <module>main</module>
  </modules>
 
