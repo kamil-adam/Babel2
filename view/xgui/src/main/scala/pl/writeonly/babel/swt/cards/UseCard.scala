@@ -3,17 +3,17 @@ package pl.writeonly.babel.swt.cards
 import org.eclipse.swt.events.SelectionEvent
 import org.eclipse.swt.widgets.Composite
 
-import com.coconut_palm_software.xscalawt.XJFace.tableViewerBuilder
-import com.coconut_palm_software.xscalawt.XScalaWT.Assignments._
-import com.coconut_palm_software.xscalawt.XScalaWT.button
-import com.coconut_palm_software.xscalawt.XScalaWT.combo
-import com.coconut_palm_software.xscalawt.XScalaWT.composite
-import com.coconut_palm_software.xscalawt.XScalaWT.fillLayout
-import com.coconut_palm_software.xscalawt.XScalaWT.horizontal
-import com.coconut_palm_software.xscalawt.XScalaWT.onSelectionImplicit
-import com.coconut_palm_software.xscalawt.XScalaWT.string2setText
-import com.coconut_palm_software.xscalawt.XScalaWT.tabItem
-import com.coconut_palm_software.xscalawt.viewers.TableViewerBuilder
+import pl.writeonly.xscalawt.XJFace.tableViewerBuilder
+import pl.writeonly.xscalawt.XScalaWT.Assignments._
+import pl.writeonly.xscalawt.XScalaWT.button
+import pl.writeonly.xscalawt.XScalaWT.combo
+import pl.writeonly.xscalawt.XScalaWT.composite
+import pl.writeonly.xscalawt.XScalaWT.fillLayout
+import pl.writeonly.xscalawt.XScalaWT.horizontal
+import pl.writeonly.xscalawt.XScalaWT.onSelectionImplicit
+import pl.writeonly.xscalawt.XScalaWT.string2setText
+import pl.writeonly.xscalawt.XScalaWT.tabItem
+import pl.writeonly.xscalawt.viewers.TableViewerBuilder
 import com.weiglewilczek.slf4s.Logging
 
 import pl.writeonly.babel.dtos.LernuQuery

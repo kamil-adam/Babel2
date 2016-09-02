@@ -10,7 +10,7 @@
  *******************************************************************************/
 package pl.writeonly.xscalawt.examples.binding
 
-import com.coconut_palm_software.xscalawt
+import pl.writeonly.xscalawt
 
 import reflect.BeanProperty
 

@@ -14,14 +14,14 @@ import javax.annotation.Resource
 import com.weiglewilczek.slf4s.Logging
 import org.eclipse.swt.widgets.Text
 import pl.writeonly.babel.entities.Lang
-import com.coconut_palm_software.xscalawt.XScalaWT._
-import com.coconut_palm_software.xscalawt.XScalaWT.Assignments._
+import pl.writeonly.xscalawt.XScalaWT._
+import pl.writeonly.xscalawt.XScalaWT.Assignments._
 import pl.writeonly.scala.swt.layout.BorderData
 import org.eclipse.swt.widgets.Composite
 import pl.writeonly.babel.swt.faces.LangFace
 
-//import com.coconut_palm_software.xscalawt.XScalaWT._
-//import com.coconut_palm_software.xscalawt.XScalaWT.Assignments._
+//import pl.writeonly.xscalawt.XScalaWT._
+//import pl.writeonly.xscalawt.XScalaWT.Assignments._
 
 trait MainWindow extends Runnable with Logging {
 

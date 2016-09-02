@@ -11,15 +11,15 @@ package pl.writeonly.xscalawt.examples.binding;
 // *******************************************************************************/
 //package pl.writeonly.babel.ui.examples.binding
 //
-//import com.coconut_palm_software.xscalawt
+//import pl.writeonly.xscalawt
 //
 //import org.eclipse.swt.widgets.Display
 //
 //import org.eclipse.jface.databinding.swt.SWTObservables
 //import org.eclipse.core.databinding.observable.Realm
 //
-//import com.coconut_palm_software.xscalawt.XScalaWT._
-//import com.coconut_palm_software.xscalawt.XScalaWTBinding._
+//import pl.writeonly.xscalawt.XScalaWT._
+//import pl.writeonly.xscalawt.XScalaWTBinding._
 //
 //object DataBindingMain {
 //  def main(args : Array[String]) = {

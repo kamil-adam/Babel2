@@ -12,13 +12,13 @@
  */
 package pl.writeonly.xscalawt.examples
 
-import com.coconut_palm_software.xscalawt._
+import pl.writeonly.xscalawt._
 
-//import com.coconut_palm_software.xscalawt.examples.Place
+//import pl.writeonly.xscalawt.examples.Place
 
-import com.coconut_palm_software.xscalawt.XScalaWT._
-import com.coconut_palm_software.xscalawt.XScalaWT.Assignments._
-import com.coconut_palm_software.xscalawt.XJFace._
+import pl.writeonly.xscalawt.XScalaWT._
+import pl.writeonly.xscalawt.XScalaWT.Assignments._
+import pl.writeonly.xscalawt.XJFace._
 import org.eclipse.swt.layout._
 import org.eclipse.swt.widgets._
 import org.eclipse.swt.events._

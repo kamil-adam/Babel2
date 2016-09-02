@@ -1,10 +1,10 @@
 package pl.writeonly.xscalawt
 
-import com.coconut_palm_software.xscalawt.XScalaWT.Assignments._
-import com.coconut_palm_software.xscalawt.XScalaWT.button
-import com.coconut_palm_software.xscalawt.XScalaWT.runEventLoop
-import com.coconut_palm_software.xscalawt.XScalaWT.shell
-import com.coconut_palm_software.xscalawt.XScalaWT.string2setText
+import pl.writeonly.xscalawt.XScalaWT.Assignments._
+import pl.writeonly.xscalawt.XScalaWT.button
+import pl.writeonly.xscalawt.XScalaWT.runEventLoop
+import pl.writeonly.xscalawt.XScalaWT.shell
+import pl.writeonly.xscalawt.XScalaWT.string2setText
 import pl.writeonly.scala.swt.layout.BorderData
 import pl.writeonly.xscalawt.YScalaWT.borderLayoutScalars
 import pl.writeonly.xscalawt.YScalaWT.textArea

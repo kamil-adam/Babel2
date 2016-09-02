@@ -3,7 +3,7 @@
  <modelVersion>4.0.0</modelVersion>
  <groupId>pl.writeonly.scalar</groupId>
  <artifactId>scalar</artifactId>
- <version>1.0-SNAPSHOT</version>
+ <version>0.0.0-SNAPSHOT</version>
  <packaging>pom</packaging>
  <name>${project.artifactId}</name>
  <description>Moon Fish</description>
@@ -16,16 +16,14 @@
  </licenses>
 
  <properties>
-  <maven.compiler.source>1.8</maven.compiler.source>
-  <maven.compiler.target>1.8</maven.compiler.target>
   <encoding>UTF-8</encoding>
+  <maven.compiler.source>1.7</maven.compiler.source>
+  <maven.compiler.target>1.7</maven.compiler.target>
   <scala.version>2.11.8</scala.version>
  </properties>
 
  <modules>
-  <module>conf</module>
-  <module>info</module>
-  <module>repl</module>
+  <module>mods</module>
   <module>view</module>
   <module>glue</module>
  </modules>

@@ -3,7 +3,7 @@ package pl.writeonly.babel.swt
 import scala.Array.fallbackCanBuildFrom
 import org.eclipse.jface.viewers.TableViewer
 import org.eclipse.swt.widgets.Table
-import com.coconut_palm_software.xscalawt.viewers.TableViewerBuilder
+import pl.writeonly.xscalawt.viewers.TableViewerBuilder
 import scala.collection.mutable.ListBuffer
 
 trait FaceBuilder[T] extends Face {

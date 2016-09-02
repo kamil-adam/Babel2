@@ -12,11 +12,11 @@ import org.eclipse.swt.custom._
 import org.eclipse.swt.layout._
 import org.eclipse.swt.widgets._
 
-import com.coconut_palm_software.xscalawt._
-import com.coconut_palm_software.xscalawt.XScalaWT._
-import com.coconut_palm_software.xscalawt.XScalaWTAPI._
-import com.coconut_palm_software.xscalawt.viewers.TableViewerBuilder
-import com.coconut_palm_software.xscalawt.viewers.TableViewerColumnBuilder
+import pl.writeonly.xscalawt._
+import pl.writeonly.xscalawt.XScalaWT._
+import pl.writeonly.xscalawt.XScalaWTAPI._
+import pl.writeonly.xscalawt.viewers.TableViewerBuilder
+import pl.writeonly.xscalawt.viewers.TableViewerColumnBuilder
 import com.weiglewilczek.slf4s.Logging
 
 import pl.writeonly.scala.swt.layout._

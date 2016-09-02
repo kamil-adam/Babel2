@@ -9,15 +9,15 @@ import org.eclipse.jface.window.ApplicationWindow
 import org.eclipse.swt.SWT
 import org.eclipse.swt.widgets.Composite
 import org.eclipse.swt.widgets.Display
-import com.coconut_palm_software.xscalawt.XScalaWT._
-import com.coconut_palm_software.xscalawt.XScalaWT.Assignments._
+import pl.writeonly.xscalawt.XScalaWT._
+import pl.writeonly.xscalawt.XScalaWT.Assignments._
 import com.weiglewilczek.slf4s.Logging
 import javax.annotation.PostConstruct
 import javax.jms.TextMessage
 import org.eclipse.swt.widgets.Shell
 
-//import com.coconut_palm_software.xscalawt.XScalaWT._
-//import com.coconut_palm_software.xscalawt.XScalaWT.Assignments._
+//import pl.writeonly.xscalawt.XScalaWT._
+//import pl.writeonly.xscalawt.XScalaWT.Assignments._
 
 object AppWindow extends App with Logging {
   val context = AppContext

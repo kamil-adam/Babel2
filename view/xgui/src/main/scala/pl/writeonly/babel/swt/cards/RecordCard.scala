@@ -1,14 +1,14 @@
 package pl.writeonly.babel.swt.cards
 
-import com.coconut_palm_software.xscalawt.XScalaWT.Assignments._
-import com.coconut_palm_software.xscalawt.XScalaWT._
-import com.coconut_palm_software.xscalawt.XJFace.tableViewerBuilder
-import com.coconut_palm_software.xscalawt.XScalaWT.composite
-import com.coconut_palm_software.xscalawt.XScalaWT.fillLayout
-import com.coconut_palm_software.xscalawt.XScalaWT.string2setText
-import com.coconut_palm_software.xscalawt.XScalaWT.tabItem
-import com.coconut_palm_software.xscalawt.XScalaWT.vertical
-import com.coconut_palm_software.xscalawt.ProviderImplicits
+import pl.writeonly.xscalawt.XScalaWT.Assignments._
+import pl.writeonly.xscalawt.XScalaWT._
+import pl.writeonly.xscalawt.XJFace.tableViewerBuilder
+import pl.writeonly.xscalawt.XScalaWT.composite
+import pl.writeonly.xscalawt.XScalaWT.fillLayout
+import pl.writeonly.xscalawt.XScalaWT.string2setText
+import pl.writeonly.xscalawt.XScalaWT.tabItem
+import pl.writeonly.xscalawt.XScalaWT.vertical
+import pl.writeonly.xscalawt.ProviderImplicits
 import org.eclipse.jface.viewers.IStructuredContentProvider
 import org.eclipse.jface.viewers.Viewer
 import pl.writeonly.babel.entities._

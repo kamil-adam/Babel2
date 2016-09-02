@@ -12,10 +12,10 @@
  */
 package pl.writeonly.xscalawt.examples
 
-import com.coconut_palm_software.xscalawt._
-import com.coconut_palm_software.xscalawt.XScalaWT._
-import com.coconut_palm_software.xscalawt.XScalaWTForms._
-import com.coconut_palm_software.xscalawt.XScalaWT.Assignments._
+import pl.writeonly.xscalawt._
+import pl.writeonly.xscalawt.XScalaWT._
+import pl.writeonly.xscalawt.XScalaWTForms._
+import pl.writeonly.xscalawt.XScalaWT.Assignments._
 
 import org.eclipse.swt.SWT
 import org.eclipse.swt.widgets._

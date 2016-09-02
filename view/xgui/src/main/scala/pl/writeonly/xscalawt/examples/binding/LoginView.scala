@@ -13,14 +13,14 @@ package pl.writeonly.xscalawt.examples.binding;
 // */
 //package pl.writeonly.babel.ui.examples.binding
 //
-//import com.coconut_palm_software.xscalawt
+//import pl.writeonly.xscalawt
 //
-//import com.coconut_palm_software.xscalawt
+//import pl.writeonly.xscalawt
 //
-//import com.coconut_palm_software.xscalawt.XScalaWT._
-//import com.coconut_palm_software.xscalawt.XScalaWTBinding._
-//import com.coconut_palm_software.xscalawt.XScalaWTStyles._
-//import com.coconut_palm_software.xscalawt.XScalaWT.Assignments._
+//import pl.writeonly.xscalawt.XScalaWT._
+//import pl.writeonly.xscalawt.XScalaWTBinding._
+//import pl.writeonly.xscalawt.XScalaWTStyles._
+//import pl.writeonly.xscalawt.XScalaWT.Assignments._
 //
 //import org.eclipse.swt.SWT
 //import org.eclipse.swt.widgets._

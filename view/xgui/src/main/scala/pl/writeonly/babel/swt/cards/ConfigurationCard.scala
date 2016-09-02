@@ -4,16 +4,16 @@ import org.eclipse.swt.events.SelectionEvent
 import org.eclipse.swt.widgets.Label
 import org.eclipse.swt.widgets.Text
 
-import com.coconut_palm_software.xscalawt.XScalaWT.button
-import com.coconut_palm_software.xscalawt.XScalaWT.composite
-import com.coconut_palm_software.xscalawt.XScalaWT.fillLayout
-import com.coconut_palm_software.xscalawt.XScalaWT.label
-import com.coconut_palm_software.xscalawt.XScalaWT.onSelectionImplicit
-import com.coconut_palm_software.xscalawt.XScalaWT.string2setText
-import com.coconut_palm_software.xscalawt.XScalaWT.tabItem
-import com.coconut_palm_software.xscalawt.XScalaWT.text
-import com.coconut_palm_software.xscalawt.XScalaWT.textPasswd
-import com.coconut_palm_software.xscalawt.XScalaWT.vertical
+import pl.writeonly.xscalawt.XScalaWT.button
+import pl.writeonly.xscalawt.XScalaWT.composite
+import pl.writeonly.xscalawt.XScalaWT.fillLayout
+import pl.writeonly.xscalawt.XScalaWT.label
+import pl.writeonly.xscalawt.XScalaWT.onSelectionImplicit
+import pl.writeonly.xscalawt.XScalaWT.string2setText
+import pl.writeonly.xscalawt.XScalaWT.tabItem
+import pl.writeonly.xscalawt.XScalaWT.text
+import pl.writeonly.xscalawt.XScalaWT.textPasswd
+import pl.writeonly.xscalawt.XScalaWT.vertical
 
 import pl.writeonly.babel.swt.faces.ConfigurationFace
 import pl.writeonly.xscalawt.YScalaWT.textToString
