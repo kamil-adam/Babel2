@@ -11,7 +11,7 @@
 
 
 	<modules>
-		<module>conf</module>
+		<module>data</module>
 		<module>info</module>
 		<module>repl</module>
 	</modules>

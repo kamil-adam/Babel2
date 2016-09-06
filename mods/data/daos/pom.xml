@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>pl.writeonly.scalar</groupId>
-		<artifactId>conf</artifactId>
+		<artifactId>data</artifactId>
 		<version>0.0.0-SNAPSHOT</version>
 	</parent>
 	<artifactId>daos</artifactId>
