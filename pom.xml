@@ -36,6 +36,11 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
+				<groupId>pl.writeonly.scalar</groupId>
+				<artifactId>view</artifactId>
+				<version>${snapshot.version}</version>
+			</dependency>
+			<dependency>
 				<groupId>pl.writeonly</groupId>
 				<artifactId>XScalarWT</artifactId>
 				<version>${snapshot.version}</version>

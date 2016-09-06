@@ -10,7 +10,7 @@
 	<packaging>jar</packaging>
 
 	<properties>
-		<version>4.1.0</version>
+		<guice.version>4.1.0</guice.version>
 	</properties>
 
 	<dependencies>
@@ -27,7 +27,7 @@
 		<dependency>
 			<groupId>com.google.inject</groupId>
 			<artifactId>guice</artifactId>
-
+			<version>${guice.version}</version>
 		</dependency>
 
 	</dependencies>

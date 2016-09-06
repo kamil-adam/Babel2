@@ -16,8 +16,8 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>pl.writeonly</groupId>
-			<artifactId>sAilOr</artifactId>
+			<groupId>pl.writeonly.sailor</groupId>
+			<artifactId>sail</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>javax.jdo</groupId>
