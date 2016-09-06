@@ -1,35 +1,35 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
- <modelVersion>4.0.0</modelVersion>
- <parent>
-  <groupId>pl.writeonly.scalar</groupId>
-  <artifactId>mods</artifactId>
-  <version>0.0.0-SNAPSHOT</version>
- </parent>
- <artifactId>repl</artifactId>
- <packaging>pom</packaging>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>pl.writeonly.scalar</groupId>
+		<artifactId>mods</artifactId>
+		<version>0.0.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>repl</artifactId>
+	<packaging>pom</packaging>
 
- <properties>
-  <jdbi.version>2.73</jdbi.version>
- </properties>
-
-
-
- <dependencies>
-  <!-- https://mvnrepository.com/artifact/org.jdbi/jdbi -->
-  <dependency>
-   <groupId>org.jdbi</groupId>
-   <artifactId>jdbi</artifactId>
-   <version>${jdbi.version}</version>
-  </dependency>
+	<properties>
+		<jdbi.version>2.73</jdbi.version>
+	</properties>
 
 
-  <!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
-  <dependency>
-   <groupId>com.google.inject</groupId>
-   <artifactId>guice</artifactId>
-   <version>4.1.0</version>
-  </dependency>
 
- </dependencies>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.jdbi/jdbi -->
+		<dependency>
+			<groupId>org.jdbi</groupId>
+			<artifactId>jdbi</artifactId>
+			<version>${jdbi.version}</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<version>4.1.0</version>
+		</dependency>
+
+	</dependencies>
 </project>
