@@ -1,13 +1,11 @@
 package pl.writeonly.scalar.view
 import scala.collection.mutable.ListBuffer
-import pl.writeonly.babel.swt.Face
 
 trait FaceBuilder[T] extends Face {
   var builder: TableViewerBuilder[T] = _
   //  def insert(): Unit
   //  def find(): Unit
-  def check() = builder.tableimport pl.writeonly.scalar.view.Face
-.getItems.filter(_.getChecked()).map(_.getData().asInstanceOf[T]).toList
+  def check() = builder.table.getItems.filter(_.getChecked()).map(_.getData().asInstanceOf[T]).toList
   def checkInt() = {
     val items = builder.table.getItems
     val buffer = new ListBuffer[Int]

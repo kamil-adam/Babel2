@@ -11,10 +11,11 @@ import org.eclipse.swt.widgets.Composite
 import org.eclipse.swt.widgets.Display
 import pl.writeonly.xscalawt.XScalaWT._
 import pl.writeonly.xscalawt.XScalaWT.Assignments._
-//import com.weiglewilczek.slf4s.Logging
+import com.typesafe.scalalogging.slf4j.StrictLogging
 import javax.annotation.PostConstruct
 import javax.jms.TextMessage
 import org.eclipse.swt.widgets.Shell
+import pl.writeonly.scalar.view.MainWindow
 
 object AppWindow extends App with StrictLogging {
   val context = AppContext

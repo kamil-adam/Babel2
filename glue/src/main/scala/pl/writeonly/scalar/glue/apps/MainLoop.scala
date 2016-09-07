@@ -1,10 +1,9 @@
 package pl.writeonly.scalar.glue.apps
 
 import org.eclipse.swt.widgets.Text
-
-//import com.weiglewilczek.slf4s.Logging
-
+import com.typesafe.scalalogging.slf4j.StrictLogging
 import pl.writeonly.xscalawt.XScalarWT._
+import pl.writeonly.scalar.view.MainWindow
 
 object MainLoop extends App with StrictLogging {
 
