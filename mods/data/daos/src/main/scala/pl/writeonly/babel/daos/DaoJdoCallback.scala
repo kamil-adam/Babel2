@@ -5,7 +5,7 @@ import scala.collection.JavaConversions._
 import scala.collection.JavaConversions._
 import org.springframework.orm.jdo.JdoCallback
 import org.springframework.orm.jdo.support.JdoDaoSupport
-import com.typesafe.scalalogging.Logging
+import com.typesafe.scalalogging.slf4j.StrictLogging
 import javax.jdo.PersistenceManager
 import pl.writeonly.babel.entities.AbstractValue
 import pl.writeonly.babel.entities.DictionaryItem
@@ -15,7 +15,7 @@ import scala.collection.mutable.ListBuffer
 import scala.collection.JavaConversions._
 import scala.collection.convert.Wrappers._
 
-class PersistenceGetter(pm: PersistenceManager) extends Logging {
+class PersistenceGetter(pm: PersistenceManager) extends StrictLogging {
   def get[T](entity: T) = {
     val clazz = entity.getClass
     val id = if (entity.isInstanceOf[Entity]) entity.asInstanceOf[Entity].id

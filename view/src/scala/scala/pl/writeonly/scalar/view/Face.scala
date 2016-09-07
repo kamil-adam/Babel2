@@ -1,7 +1,7 @@
 package pl.writeonly.scalar.view
 import javax.annotation.Resource
 
-trait Face extends Logging {
+trait Face extends StrictLogging {
   @Resource var jmsDestination: JmsDestination = _
   def apply(): Composite => Composite
   def runtime(e: RuntimeException) {

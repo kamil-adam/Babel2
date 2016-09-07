@@ -18,7 +18,7 @@ import org.eclipse.jface.viewers.TableViewer
 import org.eclipse.swt.widgets.Composite
 import org.eclipse.swt.events.SelectionEvent
 
-object RelationCard extends Logging {
+object RelationCard extends StrictLogging {
   def apply(face: RelationFace) = {
     composite(
       tabItem("Relation"),

@@ -2,7 +2,7 @@ package pl.writeonly.scalar.view
 import javax.annotation.Resource
 
 @org.springframework.stereotype.Controller
-class JmsListener extends MessageListener with Logging with ToBoolean {
+class JmsListener extends MessageListener with StrictLogging with ToBoolean {
 
   @Resource var relationFace: RelationFace = _
   var textResiver: TextMessage => Unit = _

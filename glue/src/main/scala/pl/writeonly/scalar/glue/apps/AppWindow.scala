@@ -16,7 +16,7 @@ import javax.annotation.PostConstruct
 import javax.jms.TextMessage
 import org.eclipse.swt.widgets.Shell
 
-object AppWindow extends App with Logging {
+object AppWindow extends App with StrictLogging {
   val context = AppContext
   context.main(args)
   //  val loop = context.mainLoop
@@ -69,7 +69,7 @@ class AppWindow() extends ApplicationWindow(null) with MainWindow {
 
 class StatusAction(val slm: StatusLineManager)
   extends Action("&Trigger@Ctrl+T", IAction.AS_PUSH_BUTTON)
-  with Logging {
+  with StrictLogging {
   var triggercount: Int = 0
 
   //setImageDescriptor (ImageDescriptor.createFromFile (this.getClass (), "_.gif"));

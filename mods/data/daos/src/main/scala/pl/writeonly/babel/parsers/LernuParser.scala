@@ -6,11 +6,11 @@ import pl.writeonly.babel.entities.Word
 import pl.writeonly.babel.entities.Relation
 import pl.writeonly.babel.entities.Part
 import scala.collection.mutable.ListBuffer
-import com.typesafe.scalalogging.Logging
+import com.typesafe.scalalogging.slf4j.StrictLogging
 
 //@org.springframework.stereotype.Repository
 @org.springframework.stereotype.Component
-class LernuParser extends Logging {
+class LernuParser extends StrictLogging {
 
   val serchi_pl = "http://en.lernu.net/cgi-bin/serchi.pl"
   val url_string_ = "http://en.lernu.net/cgi-bin/serchi.pl?modelo=ed&delingvo=eo&allingvo=en&prioritato=0&starto=0&bobeloid=undefined&dishaki=true&hazardo=UXxqugKH"

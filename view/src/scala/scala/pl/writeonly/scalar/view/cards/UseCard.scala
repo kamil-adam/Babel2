@@ -21,7 +21,7 @@ import pl.writeonly.babel.swt.faces.UseFace
 import pl.writeonly.scala.swt.layout.BorderData
 import pl.writeonly.xscalawt.YScalaWT.borderLayoutScalars
 
-object UseCard extends Logging {
+object UseCard extends StrictLogging {
   def apply(use: UseFace) = {
     use.lernuQueryTP.array = Array[LernuQuery](new LernuQuery("UseCard", "UseCard", "UseCard"))
     var self: Composite = null

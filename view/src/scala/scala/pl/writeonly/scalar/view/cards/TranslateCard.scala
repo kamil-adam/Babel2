@@ -27,7 +27,7 @@ import pl.writeonly.xscalawt.YScalaWT.tableViewerBuilderCheck
 import pl.writeonly.xscalawt.YScalaWT.textArea
 import pl.writeonly.xscalawt.YScalaWT.textToString
 
-object TranslateCard extends Logging {
+object TranslateCard extends StrictLogging {
   def apply(face: TranslateFace) = {
     var words: Text = null
     var lang: Combo = null

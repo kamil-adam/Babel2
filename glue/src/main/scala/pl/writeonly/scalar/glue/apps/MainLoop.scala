@@ -6,7 +6,7 @@ import org.eclipse.swt.widgets.Text
 
 import pl.writeonly.xscalawt.XScalarWT._
 
-object MainLoop extends App with Logging {
+object MainLoop extends App with StrictLogging {
 
   val context = AppContext
   context.main(args)

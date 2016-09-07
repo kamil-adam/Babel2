@@ -22,7 +22,7 @@ import pl.writeonly.xscalawt.YScalaWT.sashVerdical
 import pl.writeonly.xscalawt.YScalaWT.textArea
 import pl.writeonly.xscalawt.YScalaWT.textToString
 
-object BrowserCard extends Logging {
+object BrowserCard extends StrictLogging {
 
   def run(console: Text, none: Browser, editor: Text) {
     try {

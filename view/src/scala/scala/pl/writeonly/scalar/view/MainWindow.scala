@@ -11,7 +11,7 @@ import pl.writeonly.scalar.view.Facade
 //import com.coconut_palm_software.xscalawt.XScalaWT._
 //import com.coconut_palm_software.xscalawt.XScalaWT.Assignments._
 
-trait MainWindow extends Runnable with Logging {
+trait MainWindow extends Runnable with StrictLogging {
 
   @Resource var browserFace: BrowserFace = _
   @Resource var configurationFace: ConfigurationFace = _
