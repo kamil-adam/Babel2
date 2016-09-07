@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>pl.writeonly.scalar</groupId>
 	<artifactId>sclr</artifactId>
-	<version>0.0.0-SNAPSHOT</version>
+	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>${project.artifactId}</name>
 	<description>Moon Fish</description>
@@ -20,7 +20,7 @@
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 		<scala-minor.version>2.10</scala-minor.version>
-		<scala.version>2.10.0</scala.version>
+		<scala.version>2.10.6</scala.version>
 		<dropwizard.version>1.0.0</dropwizard.version>
 		<snapshot.version>1.0-SNAPSHOT</snapshot.version>
 
@@ -38,6 +38,11 @@
 			<dependency>
 				<groupId>pl.writeonly.scalar</groupId>
 				<artifactId>view</artifactId>
+				<version>${snapshot.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>pl.writeonly.scalar</groupId>
+				<artifactId>dpos</artifactId>
 				<version>${snapshot.version}</version>
 			</dependency>
 			<dependency>

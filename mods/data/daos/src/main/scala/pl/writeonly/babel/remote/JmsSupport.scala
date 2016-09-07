@@ -3,13 +3,13 @@ package pl.writeonly.babel.remote
 import org.springframework.jms.core.JmsTemplate
 import org.springframework.jms.core.MessageCreator
 import org.springframework.stereotype.Component
-import com.typesafe.scalalogging.StrictLogging
+import com.typesafe.scalalogging.Logging
 import javax.annotation.Resource
 import javax.jms.Destination
 import javax.jms.Message
 import javax.jms.Session
 @Component
-class JmsSupport extends StrictLogging {
+class JmsSupport extends Logging {
 
   @Resource(name = "senderJmsTemplate") var template: JmsTemplate = _
 

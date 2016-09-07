@@ -5,7 +5,7 @@ import au.com.bytecode.opencsv.bean._
 import java.io._
 import scala.collection.JavaConversions._
 import scala.collection.mutable._
-import com.typesafe.scalalogging.StrictLogging
+import com.typesafe.scalalogging.Logging
 import pl.writeonly.babel.dtos._
 
 //MappingStrategy
@@ -14,7 +14,7 @@ import pl.writeonly.babel.dtos._
 //ColumnPositionMappingStrategy
 
 @org.springframework.stereotype.Repository
-class DaoCsv extends DaoFile with StrictLogging {
+class DaoCsv extends DaoFile with Logging {
 
   def read[T](c: Class[T]): List[T] = List[T]()
   def write[T](list: List[T]) = List[T]()

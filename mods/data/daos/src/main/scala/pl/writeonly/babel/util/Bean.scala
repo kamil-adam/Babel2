@@ -1,8 +1,8 @@
 package pl.writeonly.babel.util
 
 import pl.writeonly.babel.remote.Safed
-import com.typesafe.scalalogging.StrictLogging
+import com.typesafe.scalalogging.Logging
 
-trait Bean extends StrictLogging with Safed {
+trait Bean extends Logging with Safed {
 
 }
