@@ -13,6 +13,10 @@
 		<jdbi.version>2.73</jdbi.version>
 	</properties>
 
+	<modules>
+		<module>case</module>
+	</modules>
+
 
 
 	<dependencies>

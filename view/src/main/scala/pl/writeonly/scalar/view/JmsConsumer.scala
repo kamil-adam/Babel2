@@ -1,13 +1,22 @@
 package pl.writeonly.scalar.view
+
+import org.springframework.jms.core.JmsTemplate
+
 import javax.annotation.Resource
-import pl.writimport com.weiglewilczek.slf4s.Logging
+
+import com.typesafe.scalalogging.slf4j.StrictLogging
 import javax.annotation.Resource
 import javax.jms.Connection
 import javax.jms.Destination
 import javax.jms.MessageConsumer
 import javax.jms.Session
 import pl.writeonly.scala.util.ToBoolean
-import pl.writeonly.scalar.view.JmsListenerate = _
+import pl.writeonly.scalar.view.JmsListener
+
+@org.springframework.stereotype.Controller
+class JmsConsumer extends StrictLogging with ToBoolean {
+  @Resource var listener: JmsListener = _
+  @Resource(name = "consumerJmsTemplate") var template: JmsTemplate = _
   @Resource var destination: Destination = _
   var connection: Connection = _
   var session: Session = _

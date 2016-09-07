@@ -3,21 +3,17 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>pl.writeonly.scalar</groupId>
-		<artifactId>sclr</artifactId>
+		<artifactId>repl</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>view</artifactId>
+	<artifactId>case</artifactId>
 	<packaging>jar</packaging>
 
+
+	<properties>
+	</properties>
+
 	<dependencies>
-		<dependency>
-			<groupId>pl.writeonly.sailor</groupId>
-			<artifactId>sail</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>pl.writeonly</groupId>
-			<artifactId>XScalarWT</artifactId>
-		</dependency>
 	</dependencies>
+
 </project>
-  

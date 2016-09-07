@@ -16,6 +16,10 @@
 	<dependencies>
 		<dependency>
 			<groupId>pl.writeonly.scalar</groupId>
+			<artifactId>daos</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>pl.writeonly.scalar</groupId>
 			<artifactId>view</artifactId>
 		</dependency>
 		<dependency>
