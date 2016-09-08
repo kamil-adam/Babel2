@@ -1,17 +1,17 @@
 package pl.writeonly.scalar.view.cards
 
-import pl.writeonly.babel.swt.faces.LangFace
+import pl.writeonly.scalar.view.faces.LangFace
 import pl.writeonly.xscalawt.viewers.TableViewerBuilder
 import org.eclipse.jface.viewers.TableViewer
 import pl.writeonly.babel.entities.Lang
 import pl.writeonly.xscalawt.XScalaWT._
 import pl.writeonly.xscalawt.XScalaWT.Assignments._
-import pl.writeonly.xscalawt.YScalaWT._
+import pl.writeonly.xscalawt.XScalarWT._
 import org.eclipse.swt.events.SelectionEvent
 import pl.writeonly.scala.swt.layout.BorderData
 //import pl.writeonly.xscalawt.XScalaWT._
 //import pl.writeonly.xscalawt.XScalaWT.Assignments._
-//import pl.writeonly.xscalawt.YScalaWT._
+//import pl.writeonly.xscalawt.XScalarWT._
 
 object LangCard {
   def apply(face: LangFace) = {

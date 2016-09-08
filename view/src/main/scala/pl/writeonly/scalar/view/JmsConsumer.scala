@@ -11,7 +11,6 @@ import javax.jms.Destination
 import javax.jms.MessageConsumer
 import javax.jms.Session
 import pl.writeonly.scala.util.ToBoolean
-import pl.writeonly.scalar.view.JmsListener
 
 @org.springframework.stereotype.Controller
 class JmsConsumer extends StrictLogging with ToBoolean {

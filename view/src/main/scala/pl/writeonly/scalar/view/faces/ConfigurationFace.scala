@@ -4,7 +4,7 @@ import javax.annotation.Resource
 import pl.writeonly.babel.beans.ConfigurationBean
 import pl.writeonly.babel.beans.UserBean
 import pl.writeonly.scalar.view.Face
-import pl.writeonly.babel.swt.cards.ConfigurationCard
+import pl.writeonly.scalar.view.cards.ConfigurationCard
 import pl.writeonly.scalar.view.Facade
 
 @org.springframework.stereotype.Controller

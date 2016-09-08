@@ -13,9 +13,9 @@ import pl.writeonly.xscalawt.XScalaWT.string2setText
 import pl.writeonly.xscalawt.XScalaWT.tabItem
 
 import pl.writeonly.babel.beans.FacadeBean
-import pl.writeonly.babel.swt.faces.PlayFace
+import pl.writeonly.scalar.view.faces.PlayFace
 import pl.writeonly.scala.swt.layout.BorderData
-import pl.writeonly.xscalawt.YScalaWT.borderLayoutScalars
+import pl.writeonly.xscalawt.XScalarWT.borderLayoutScalars
 
 object PlayCard {
   def apply(playFace : PlayFace) = {

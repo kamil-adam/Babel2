@@ -16,16 +16,16 @@ import pl.writeonly.xscalawt.XScalaWT.string2setText
 import pl.writeonly.xscalawt.XScalaWT.tabItem
 import pl.writeonly.xscalawt.XScalaWT.vertical
 import pl.writeonly.xscalawt.viewers.TableViewerBuilder
-import com.weiglewilczek.slf4s.Logging
+import com.typesafe.scalalogging.slf4j.StrictLogging
 
 import pl.writeonly.babel.entities.Lang
-import pl.writeonly.babel.swt.faces.TranslateFace
+import pl.writeonly.scalar.view.faces.TranslateFace
 import pl.writeonly.scala.swt.layout.BorderData
-import pl.writeonly.xscalawt.YScalaWT.borderLayoutScalars
-import pl.writeonly.xscalawt.YScalaWT.sashHorizontal
-import pl.writeonly.xscalawt.YScalaWT.tableViewerBuilderCheck
-import pl.writeonly.xscalawt.YScalaWT.textArea
-import pl.writeonly.xscalawt.YScalaWT.textToString
+import pl.writeonly.xscalawt.XScalarWT.borderLayoutScalars
+import pl.writeonly.xscalawt.XScalarWT.sashHorizontal
+import pl.writeonly.xscalawt.XScalarWT.tableViewerBuilderCheck
+import pl.writeonly.xscalawt.XScalarWT.textArea
+import pl.writeonly.xscalawt.XScalarWT.textToString
 
 object TranslateCard extends StrictLogging {
   def apply(face: TranslateFace) = {

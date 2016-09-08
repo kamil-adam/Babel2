@@ -1,5 +1,19 @@
 package pl.writeonly.scalar.view
 import javax.annotation.Resource
+import com.typesafe.scalalogging.slf4j.StrictLogging
+
+import javax.annotation.Resource
+import javax.jms.BytesMessage
+import javax.jms.MapMessage
+import javax.jms.Message
+import javax.jms.MessageListener
+import javax.jms.ObjectMessage
+import javax.jms.StreamMessage
+import javax.jms.TextMessage
+
+import pl.writeonly.babel.entities.Relation
+import pl.writeonly.scalar.view.faces.RelationFace
+import pl.writeonly.scala.util.ToBoolean
 
 @org.springframework.stereotype.Controller
 class JmsListener extends MessageListener with StrictLogging with ToBoolean {

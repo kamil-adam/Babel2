@@ -3,8 +3,8 @@ package pl.writeonly.scalar.view.faces
 import org.springframework.stereotype.Controller
 import javax.annotation.PostConstruct
 import javax.annotation.Resource
-import pl.writeonly.babel.swt.providers.LangTableProvider
-import com.weiglewilczek.slf4s.Logging
+import pl.writeonly.scalar.view.providers.LangTableProvider
+import com.typesafe.scalalogging.slf4j.StrictLogging
 import pl.writeonly.babel.beans.SideBean
 import pl.writeonly.babel.beans.ValueBean
 import org.eclipse.jface.viewers.TableViewer
@@ -13,12 +13,12 @@ import pl.writeonly.babel.entities.Lang
 import org.eclipse.swt.widgets.Table
 import pl.writeonly.babel.beans.TranslateBean
 import scala.collection.mutable._
-import pl.writeonly.babel.swt.providers.DefaultTableProvider
+import pl.writeonly.scalar.view.providers.DefaultTableProvider
 import pl.writeonly.babel.entities.LangRadio
-import pl.writeonly.babel.swt.providers._
+import pl.writeonly.scalar.view.providers._
 import org.eclipse.swt.widgets.Combo
 import pl.writeonly.scalar.view.Face
-import pl.writeonly.babel.swt.cards.TranslateCard
+import pl.writeonly.scalar.view.cards.TranslateCard
 
 @org.springframework.stereotype.Controller
 class TranslateFace extends Face {

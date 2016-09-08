@@ -15,8 +15,8 @@ import pl.writeonly.xscalawt.XScalaWT.text
 import pl.writeonly.xscalawt.XScalaWT.textPasswd
 import pl.writeonly.xscalawt.XScalaWT.vertical
 
-import pl.writeonly.babel.swt.faces.ConfigurationFace
-import pl.writeonly.xscalawt.YScalaWT.textToString
+import pl.writeonly.scalar.view.faces.ConfigurationFace
+import pl.writeonly.xscalawt.XScalarWT.textToString
 
 object ConfigurationCard {
   def apply(configuration: ConfigurationFace) = {

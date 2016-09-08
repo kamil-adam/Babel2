@@ -7,8 +7,8 @@ import pl.writeonly.babel.beans.ValueBean
 import pl.writeonly.babel.entities.Lang
 import pl.writeonly.scalar.view.Face
 import pl.writeonly.scalar.view.FaceBuilder
-import pl.writeonly.babel.swt.cards.LangCard
-import pl.writeonly.babel.swt.providers.LangTableProvider
+import pl.writeonly.scalar.view.cards.LangCard
+import pl.writeonly.scalar.view.providers.LangTableProvider
 import pl.writeonly.scala.util.SingleAbstractMethod._
 import org.eclipse.swt.widgets.Text
 import pl.writeonly.babel.entities.Lang.stringToLang

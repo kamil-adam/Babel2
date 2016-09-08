@@ -12,15 +12,15 @@ import pl.writeonly.xscalawt.XScalaWT.onSelectionImplicit
 import pl.writeonly.xscalawt.XScalaWT.string2setText
 import pl.writeonly.xscalawt.XScalaWT.tabItem
 import pl.writeonly.xscalawt.XScalaWT.text
-import com.weiglewilczek.slf4s.Logging
+import com.typesafe.scalalogging.slf4j.StrictLogging
 
-import pl.writeonly.babel.swt.faces.BrowserFace
+import pl.writeonly.scalar.view.faces.BrowserFace
 import pl.writeonly.scala.swt.layout.BorderData
-import pl.writeonly.xscalawt.YScalaWT.borderLayoutScalars
-import pl.writeonly.xscalawt.YScalaWT.sashHorizontal
-import pl.writeonly.xscalawt.YScalaWT.sashVerdical
-import pl.writeonly.xscalawt.YScalaWT.textArea
-import pl.writeonly.xscalawt.YScalaWT.textToString
+import pl.writeonly.xscalawt.XScalarWT.borderLayoutScalars
+import pl.writeonly.xscalawt.XScalarWT.sashHorizontal
+import pl.writeonly.xscalawt.XScalarWT.sashVerdical
+import pl.writeonly.xscalawt.XScalarWT.textArea
+import pl.writeonly.xscalawt.XScalarWT.textToString
 
 object BrowserCard extends StrictLogging {
 

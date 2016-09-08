@@ -14,12 +14,12 @@ import pl.writeonly.xscalawt.XScalaWT.onSelectionImplicit
 import pl.writeonly.xscalawt.XScalaWT.string2setText
 import pl.writeonly.xscalawt.XScalaWT.tabItem
 import pl.writeonly.xscalawt.viewers.TableViewerBuilder
-import com.weiglewilczek.slf4s.Logging
+import com.typesafe.scalalogging.slf4j.StrictLogging
 
 import pl.writeonly.babel.dtos.LernuQuery
-import pl.writeonly.babel.swt.faces.UseFace
+import pl.writeonly.scalar.view.faces.UseFace
 import pl.writeonly.scala.swt.layout.BorderData
-import pl.writeonly.xscalawt.YScalaWT.borderLayoutScalars
+import pl.writeonly.xscalawt.XScalarWT.borderLayoutScalars
 
 object UseCard extends StrictLogging {
   def apply(use: UseFace) = {

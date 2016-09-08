@@ -16,12 +16,12 @@ import pl.writeonly.babel.entities._
 import pl.writeonly.babel.entities.Part._
 import pl.writeonly.babel.entities.Value._
 import pl.writeonly.babel.entities.Word
-import pl.writeonly.babel.swt.Facade._
-import pl.writeonly.babel.swt.faces.WordFace
+import pl.writeonly.scalar.view.Facade._
+import pl.writeonly.scalar.view.faces.WordFace
 import pl.writeonly.scala.swt.layout.BorderData
-import pl.writeonly.xscalawt.YScalaWT.borderLayoutScalars
-import pl.writeonly.xscalawt.YScalaWT.checkbox
-import pl.writeonly.xscalawt.YScalaWT.textToString
+import pl.writeonly.xscalawt.XScalarWT.borderLayoutScalars
+import pl.writeonly.xscalawt.XScalarWT.checkbox
+import pl.writeonly.xscalawt.XScalarWT.textToString
 
 object WordModel {
   object TableProvider extends IStructuredContentProvider with ProviderImplicits[Word] {

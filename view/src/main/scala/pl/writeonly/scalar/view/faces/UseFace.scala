@@ -1,16 +1,16 @@
 package pl.writeonly.scalar.view.faces
 
-import com.weiglewilczek.slf4s.Logging
+import com.typesafe.scalalogging.slf4j.StrictLogging
 import javax.annotation.Resource
 import org.springframework.stereotype.Controller
 import pl.writeonly.babel.beans._
 import pl.writeonly.babel.daos.DaoCsv
 import pl.writeonly.babel.dtos.LernuQuery
-import pl.writeonly.babel.swt.providers.DefaultTableProvider
+import pl.writeonly.scalar.view.providers.DefaultTableProvider
 import javax.annotation.PostConstruct
 import pl.writeonly.xscalawt.viewers.TableViewerBuilder
 import org.eclipse.jface.viewers.TableViewer
-import pl.writeonly.babel.swt.cards.UseCard
+import pl.writeonly.scalar.view.cards.UseCard
 import pl.writeonly.scalar.view.Face
 import pl.writeonly.scalar.view.Facade
 

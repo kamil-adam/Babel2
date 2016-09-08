@@ -5,16 +5,16 @@ import org.eclipse.swt.widgets.Display
 import org.eclipse.swt.widgets.Table
 
 import pl.writeonly.xscalawt.viewers.TableViewerBuilder
-import com.weiglewilczek.slf4s.Logging
+import com.typesafe.scalalogging.slf4j.StrictLogging
 
 import javax.annotation.Resource
 import pl.writeonly.babel.beans.RecordBean
 import pl.writeonly.babel.beans.WordBean
 import pl.writeonly.babel.entities.Record
 import pl.writeonly.scalar.view.Face
-import pl.writeonly.babel.swt.cards.RecordCard
-import pl.writeonly.babel.swt.providers.RecordTableProvider
-import pl.writeonly.babel.swt.providers.RelationTableProvider
+import pl.writeonly.scalar.view.cards.RecordCard
+import pl.writeonly.scalar.view.providers.RecordTableProvider
+import pl.writeonly.scalar.view.providers.RelationTableProvider
 import pl.writeonly.scala.util.SingleAbstractMethod._
 
 @org.springframework.stereotype.Controller

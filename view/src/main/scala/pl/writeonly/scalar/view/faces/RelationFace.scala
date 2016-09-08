@@ -4,7 +4,7 @@ import org.eclipse.jface.viewers.TableViewer
 import org.eclipse.swt.widgets.Display
 import org.eclipse.swt.widgets.Table
 import pl.writeonly.xscalawt.viewers.TableViewerBuilder
-import com.weiglewilczek.slf4s.Logging
+import com.typesafe.scalalogging.slf4j.StrictLogging
 import javax.annotation.Resource
 import pl.writeonly.babel.beans.RecordBean
 import pl.writeonly.babel.beans.RelationBean
@@ -12,8 +12,8 @@ import pl.writeonly.babel.beans.WordBean
 import pl.writeonly.babel.entities.Relation
 import pl.writeonly.scalar.view.Face
 import pl.writeonly.scalar.view.FaceBuilder
-import pl.writeonly.babel.swt.cards.RelationCard
-import pl.writeonly.babel.swt.providers.RelationTableProvider
+import pl.writeonly.scalar.view.cards.RelationCard
+import pl.writeonly.scalar.view.providers.RelationTableProvider
 import pl.writeonly.scala.util.SingleAbstractMethod._
 import com.google.gson.Gson
 import java.util.Arrays

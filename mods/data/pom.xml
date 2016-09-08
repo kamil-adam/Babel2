@@ -16,6 +16,7 @@
 		<module>dbms</module>
 		<module>dpos</module>
 		<module>daos</module>
+		<module>comp</module>		
 	</modules>
 </project>
   
