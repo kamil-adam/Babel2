@@ -8,7 +8,7 @@ import pl.writeonly.xscalawt.XScalaWT._
 import pl.writeonly.xscalawt.XScalaWT.Assignments._
 import pl.writeonly.xscalawt.XScalarWT._
 import org.eclipse.swt.events.SelectionEvent
-import pl.writeonly.scala.swt.layout.BorderData
+import pl.writeonly.xscalarwt.swt.layout.BorderData
 //import pl.writeonly.xscalawt.XScalaWT._
 //import pl.writeonly.xscalawt.XScalaWT.Assignments._
 //import pl.writeonly.xscalawt.XScalarWT._

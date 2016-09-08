@@ -50,6 +50,11 @@
 				<version>${snapshot.version}</version>
 			</dependency>
 			<dependency>
+				<groupId>pl.writeonly.scalar</groupId>
+				<artifactId>comp</artifactId>
+				<version>${snapshot.version}</version>
+			</dependency>
+			<dependency>
 				<groupId>pl.writeonly</groupId>
 				<artifactId>XScalarWT</artifactId>
 				<version>${snapshot.version}</version>

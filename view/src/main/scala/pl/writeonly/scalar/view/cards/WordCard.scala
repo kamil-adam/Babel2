@@ -18,7 +18,7 @@ import pl.writeonly.babel.entities.Value._
 import pl.writeonly.babel.entities.Word
 import pl.writeonly.scalar.view.Facade._
 import pl.writeonly.scalar.view.faces.WordFace
-import pl.writeonly.scala.swt.layout.BorderData
+import pl.writeonly.xscalarwt.swt.layout.BorderData
 import pl.writeonly.xscalawt.XScalarWT.borderLayoutScalars
 import pl.writeonly.xscalawt.XScalarWT.checkbox
 import pl.writeonly.xscalawt.XScalarWT.textToString

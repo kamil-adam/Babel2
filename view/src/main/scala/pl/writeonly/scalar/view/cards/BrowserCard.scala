@@ -15,7 +15,7 @@ import pl.writeonly.xscalawt.XScalaWT.text
 import com.typesafe.scalalogging.slf4j.StrictLogging
 
 import pl.writeonly.scalar.view.faces.BrowserFace
-import pl.writeonly.scala.swt.layout.BorderData
+import pl.writeonly.xscalarwt.swt.layout.BorderData
 import pl.writeonly.xscalawt.XScalarWT.borderLayoutScalars
 import pl.writeonly.xscalawt.XScalarWT.sashHorizontal
 import pl.writeonly.xscalawt.XScalarWT.sashVerdical

@@ -18,7 +18,7 @@ import com.typesafe.scalalogging.slf4j.StrictLogging
 
 import pl.writeonly.babel.dtos.LernuQuery
 import pl.writeonly.scalar.view.faces.UseFace
-import pl.writeonly.scala.swt.layout.BorderData
+import pl.writeonly.xscalarwt.swt.layout.BorderData
 import pl.writeonly.xscalawt.XScalarWT.borderLayoutScalars
 
 object UseCard extends StrictLogging {

@@ -20,7 +20,7 @@ import com.typesafe.scalalogging.slf4j.StrictLogging
 
 import pl.writeonly.babel.entities.Lang
 import pl.writeonly.scalar.view.faces.TranslateFace
-import pl.writeonly.scala.swt.layout.BorderData
+import pl.writeonly.xscalarwt.swt.layout.BorderData
 import pl.writeonly.xscalawt.XScalarWT.borderLayoutScalars
 import pl.writeonly.xscalawt.XScalarWT.sashHorizontal
 import pl.writeonly.xscalawt.XScalarWT.tableViewerBuilderCheck

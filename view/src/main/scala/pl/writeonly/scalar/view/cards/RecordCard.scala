@@ -13,7 +13,7 @@ import org.eclipse.jface.viewers.IStructuredContentProvider
 import org.eclipse.jface.viewers.Viewer
 import pl.writeonly.babel.entities._
 import pl.writeonly.scalar.view.faces.RecordFace
-import pl.writeonly.scala.swt.layout.BorderData
+import pl.writeonly.xscalarwt.swt.layout.BorderData
 import pl.writeonly.xscalawt.XScalarWT._
 import org.eclipse.swt.events.SelectionEvent
 

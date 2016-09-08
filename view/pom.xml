@@ -15,6 +15,10 @@
 			<artifactId>daos</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>pl.writeonly.scalar</groupId>
+			<artifactId>comp</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>pl.writeonly.sailor</groupId>
 			<artifactId>sail</artifactId>
 		</dependency>

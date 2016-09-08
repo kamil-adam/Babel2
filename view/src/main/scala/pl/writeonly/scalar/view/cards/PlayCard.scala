@@ -14,7 +14,7 @@ import pl.writeonly.xscalawt.XScalaWT.tabItem
 
 import pl.writeonly.babel.beans.FacadeBean
 import pl.writeonly.scalar.view.faces.PlayFace
-import pl.writeonly.scala.swt.layout.BorderData
+import pl.writeonly.xscalarwt.swt.layout.BorderData
 import pl.writeonly.xscalawt.XScalarWT.borderLayoutScalars
 
 object PlayCard {

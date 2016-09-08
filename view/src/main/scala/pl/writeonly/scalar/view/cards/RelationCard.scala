@@ -12,7 +12,7 @@ import pl.writeonly.xscalawt.viewers.TableViewerBuilder
 import pl.writeonly.babel.entities.Relation
 import pl.writeonly.scalar.view.faces.RelationFace
 import pl.writeonly.xscalawt.XScalarWT._
-import pl.writeonly.scala.swt.layout.BorderData
+import pl.writeonly.xscalarwt.swt.layout.BorderData
 import com.typesafe.scalalogging.slf4j.StrictLogging
 import org.eclipse.jface.viewers.TableViewer
 import org.eclipse.swt.widgets.Composite
