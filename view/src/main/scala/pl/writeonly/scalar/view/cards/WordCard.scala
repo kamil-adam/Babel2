@@ -5,12 +5,12 @@ import org.eclipse.jface.viewers.Viewer
 import org.eclipse.swt.events.SelectionEvent
 import org.eclipse.swt.widgets.Text
 
-import com.coconut_palm_software.xscalawt
-import com.coconut_palm_software.xscalawt._
-import com.coconut_palm_software.xscalawt.XJFace._
-import com.coconut_palm_software.xscalawt.XScalaWT._
-import com.coconut_palm_software.xscalawt.XScalaWT.Assignments._
-import com.coconut_palm_software.xscalawt.XScalaWTForms._
+import pl.writeonly.xscalawt
+import pl.writeonly.xscalawt._
+import pl.writeonly.xscalawt.XJFace._
+import pl.writeonly.xscalawt.XScalaWT._
+import pl.writeonly.xscalawt.XScalaWT.Assignments._
+import pl.writeonly.xscalawt.XScalaWTForms._
 
 import pl.writeonly.babel.entities._
 import pl.writeonly.babel.entities.Part._

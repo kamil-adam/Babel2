@@ -1,16 +1,16 @@
 package pl.writeonly.scalar.view.cards
 
 import pl.writeonly.babel.swt.faces.LangFace
-import com.coconut_palm_software.xscalawt.viewers.TableViewerBuilder
+import pl.writeonly.xscalawt.viewers.TableViewerBuilder
 import org.eclipse.jface.viewers.TableViewer
 import pl.writeonly.babel.entities.Lang
-import com.coconut_palm_software.xscalawt.XScalaWT._
-import com.coconut_palm_software.xscalawt.XScalaWT.Assignments._
+import pl.writeonly.xscalawt.XScalaWT._
+import pl.writeonly.xscalawt.XScalaWT.Assignments._
 import pl.writeonly.xscalawt.YScalaWT._
 import org.eclipse.swt.events.SelectionEvent
 import pl.writeonly.scala.swt.layout.BorderData
-//import com.coconut_palm_software.xscalawt.XScalaWT._
-//import com.coconut_palm_software.xscalawt.XScalaWT.Assignments._
+//import pl.writeonly.xscalawt.XScalaWT._
+//import pl.writeonly.xscalawt.XScalaWT.Assignments._
 //import pl.writeonly.xscalawt.YScalaWT._
 
 object LangCard {

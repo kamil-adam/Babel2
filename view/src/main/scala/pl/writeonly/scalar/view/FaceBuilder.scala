@@ -1,6 +1,8 @@
 package pl.writeonly.scalar.view
 import scala.collection.mutable.ListBuffer
 
+import pl.writeonly.xscalawt.viewers.TableViewerBuilder
+
 trait FaceBuilder[T] extends Face {
   var builder: TableViewerBuilder[T] = _
   //  def insert(): Unit

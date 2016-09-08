@@ -3,14 +3,14 @@ package pl.writeonly.scalar.view.cards
 import org.eclipse.swt.events.SelectionEvent
 import org.eclipse.swt.widgets.Label
 
-import com.coconut_palm_software.xscalawt.XScalaWT.Assignments._
-import com.coconut_palm_software.xscalawt.XScalaWT.button
-import com.coconut_palm_software.xscalawt.XScalaWT.composite
-import com.coconut_palm_software.xscalawt.XScalaWT.label
-import com.coconut_palm_software.xscalawt.XScalaWT.list
-import com.coconut_palm_software.xscalawt.XScalaWT.onSelectionImplicit
-import com.coconut_palm_software.xscalawt.XScalaWT.string2setText
-import com.coconut_palm_software.xscalawt.XScalaWT.tabItem
+import pl.writeonly.xscalawt.XScalaWT.Assignments._
+import pl.writeonly.xscalawt.XScalaWT.button
+import pl.writeonly.xscalawt.XScalaWT.composite
+import pl.writeonly.xscalawt.XScalaWT.label
+import pl.writeonly.xscalawt.XScalaWT.list
+import pl.writeonly.xscalawt.XScalaWT.onSelectionImplicit
+import pl.writeonly.xscalawt.XScalaWT.string2setText
+import pl.writeonly.xscalawt.XScalaWT.tabItem
 
 import pl.writeonly.babel.beans.FacadeBean
 import pl.writeonly.babel.swt.faces.PlayFace

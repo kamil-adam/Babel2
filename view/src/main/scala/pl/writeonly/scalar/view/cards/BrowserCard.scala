@@ -4,14 +4,14 @@ import org.eclipse.swt.browser.Browser
 import org.eclipse.swt.events.SelectionEvent
 import org.eclipse.swt.widgets.Text
 
-import com.coconut_palm_software.xscalawt.XScalaWT.Assignments._
-import com.coconut_palm_software.xscalawt.XScalaWT.browser
-import com.coconut_palm_software.xscalawt.XScalaWT.button
-import com.coconut_palm_software.xscalawt.XScalaWT.composite
-import com.coconut_palm_software.xscalawt.XScalaWT.onSelectionImplicit
-import com.coconut_palm_software.xscalawt.XScalaWT.string2setText
-import com.coconut_palm_software.xscalawt.XScalaWT.tabItem
-import com.coconut_palm_software.xscalawt.XScalaWT.text
+import pl.writeonly.xscalawt.XScalaWT.Assignments._
+import pl.writeonly.xscalawt.XScalaWT.browser
+import pl.writeonly.xscalawt.XScalaWT.button
+import pl.writeonly.xscalawt.XScalaWT.composite
+import pl.writeonly.xscalawt.XScalaWT.onSelectionImplicit
+import pl.writeonly.xscalawt.XScalaWT.string2setText
+import pl.writeonly.xscalawt.XScalaWT.tabItem
+import pl.writeonly.xscalawt.XScalaWT.text
 import com.weiglewilczek.slf4s.Logging
 
 import pl.writeonly.babel.swt.faces.BrowserFace

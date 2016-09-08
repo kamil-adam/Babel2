@@ -3,7 +3,7 @@ package pl.writeonly.scalar.view.faces
 import org.eclipse.jface.viewers.TableViewer
 import org.eclipse.swt.widgets.Display
 import org.eclipse.swt.widgets.Table
-import com.coconut_palm_software.xscalawt.viewers.TableViewerBuilder
+import pl.writeonly.xscalawt.viewers.TableViewerBuilder
 import com.weiglewilczek.slf4s.Logging
 import javax.annotation.Resource
 import pl.writeonly.babel.beans.RecordBean

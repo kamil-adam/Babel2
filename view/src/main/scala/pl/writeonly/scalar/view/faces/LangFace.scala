@@ -1,7 +1,7 @@
 package pl.writeonly.scalar.view.faces
 
 import org.eclipse.swt.widgets.Display
-import com.coconut_palm_software.xscalawt.viewers.TableViewerBuilder
+import pl.writeonly.xscalawt.viewers.TableViewerBuilder
 import javax.annotation.Resource
 import pl.writeonly.babel.beans.ValueBean
 import pl.writeonly.babel.entities.Lang

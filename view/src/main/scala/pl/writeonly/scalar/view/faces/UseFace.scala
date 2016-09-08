@@ -8,7 +8,7 @@ import pl.writeonly.babel.daos.DaoCsv
 import pl.writeonly.babel.dtos.LernuQuery
 import pl.writeonly.babel.swt.providers.DefaultTableProvider
 import javax.annotation.PostConstruct
-import com.coconut_palm_software.xscalawt.viewers.TableViewerBuilder
+import pl.writeonly.xscalawt.viewers.TableViewerBuilder
 import org.eclipse.jface.viewers.TableViewer
 import pl.writeonly.babel.swt.cards.UseCard
 import pl.writeonly.scalar.view.Face

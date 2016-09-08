@@ -11,6 +11,7 @@
 
 
 	<modules>
+<!-- 		<module>moon</module> -->
 		<module>data</module>
 		<module>info</module>
 		<module>repl</module>

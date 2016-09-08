@@ -6,16 +6,16 @@ import org.eclipse.swt.widgets.Button
 import org.eclipse.swt.widgets.Combo
 import org.eclipse.swt.widgets.Text
 
-import com.coconut_palm_software.xscalawt.XScalaWT.Assignments._
-import com.coconut_palm_software.xscalawt.XScalaWT.button
-import com.coconut_palm_software.xscalawt.XScalaWT.combo
-import com.coconut_palm_software.xscalawt.XScalaWT.composite
-import com.coconut_palm_software.xscalawt.XScalaWT.fillLayout
-import com.coconut_palm_software.xscalawt.XScalaWT.onSelectionImplicit
-import com.coconut_palm_software.xscalawt.XScalaWT.string2setText
-import com.coconut_palm_software.xscalawt.XScalaWT.tabItem
-import com.coconut_palm_software.xscalawt.XScalaWT.vertical
-import com.coconut_palm_software.xscalawt.viewers.TableViewerBuilder
+import pl.writeonly.xscalawt.XScalaWT.Assignments._
+import pl.writeonly.xscalawt.XScalaWT.button
+import pl.writeonly.xscalawt.XScalaWT.combo
+import pl.writeonly.xscalawt.XScalaWT.composite
+import pl.writeonly.xscalawt.XScalaWT.fillLayout
+import pl.writeonly.xscalawt.XScalaWT.onSelectionImplicit
+import pl.writeonly.xscalawt.XScalaWT.string2setText
+import pl.writeonly.xscalawt.XScalaWT.tabItem
+import pl.writeonly.xscalawt.XScalaWT.vertical
+import pl.writeonly.xscalawt.viewers.TableViewerBuilder
 import com.weiglewilczek.slf4s.Logging
 
 import pl.writeonly.babel.entities.Lang

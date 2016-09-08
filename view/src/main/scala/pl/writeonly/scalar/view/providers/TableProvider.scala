@@ -3,7 +3,7 @@ package pl.writeonly.scalar.view.providers
 import org.eclipse.jface.viewers.IStructuredContentProvider
 import org.eclipse.jface.viewers.Viewer
 
-import com.coconut_palm_software.xscalawt.ProviderImplicits
+import pl.writeonly.xscalawt.ProviderImplicits
 
 import pl.writeonly.babel.dtos.LernuQuery
 import pl.writeonly.babel.entities._
