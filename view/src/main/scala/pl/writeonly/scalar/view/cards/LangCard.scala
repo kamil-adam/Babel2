@@ -13,6 +13,8 @@ import pl.writeonly.xscalarwt.swt.layout.BorderData
 //import pl.writeonly.xscalawt.XScalaWT.Assignments._
 //import pl.writeonly.xscalawt.XScalarWT._
 
+import pl.writeonly.scala.util.SingleAbstractMethod._
+
 object LangCard {
   def apply(face: LangFace) = {
     val result = composite(

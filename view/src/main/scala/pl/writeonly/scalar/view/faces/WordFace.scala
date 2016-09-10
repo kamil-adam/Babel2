@@ -15,6 +15,8 @@ import pl.writeonly.scalar.view.providers.WordTableProvider
 import pl.writeonly.scala.util.SingleAbstractMethod._
 import pl.writeonly.babel.remote.JmsDestination
 
+import pl.writeonly.scala.util.SingleAbstractMethod._
+
 @org.springframework.stereotype.Controller
 class WordFace extends Face {
   //@Resource var jmsDestination: JmsDestination = _

@@ -2,6 +2,8 @@ package pl.writeonly.scalar.glue.apps
 
 //import org.springframework.context.ApplicationContext
 //import org.springframework.context.support.ClassPathXmlApplicationContext
+
+
 object AppContext extends App {
 //  val context: ApplicationContext = new ClassPathXmlApplicationContext("applicationContext.xml")
 //  def appWindow = context.getBean("appWindow").asInstanceOf[AppWindow]

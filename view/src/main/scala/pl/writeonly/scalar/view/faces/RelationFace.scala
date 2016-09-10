@@ -7,6 +7,7 @@ import pl.writeonly.xscalawt.viewers.TableViewerBuilder
 import com.typesafe.scalalogging.slf4j.StrictLogging
 import javax.annotation.Resource
 import pl.writeonly.babel.beans.RecordBean
+import pl.writeonly.babel.beans.ParseBean
 import pl.writeonly.babel.beans.RelationBean
 import pl.writeonly.babel.beans.WordBean
 import pl.writeonly.babel.entities.Relation

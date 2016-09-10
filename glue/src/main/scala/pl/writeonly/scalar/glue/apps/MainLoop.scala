@@ -9,7 +9,7 @@ object MainLoop extends App with StrictLogging {
 
   val context = AppContext
   context.main(args)
-  context.mainLoop.run
+//  context.mainLoop.run
 }
 
 @org.springframework.stereotype.Controller

@@ -1,18 +1,17 @@
 package pl.writeonly.scalar.view
 
-
 import com.typesafe.scalalogging.slf4j.StrictLogging
 
 import javax.annotation.Resource
-
 
 import pl.writeonly.xscalawt.XScalarWT._
 import pl.writeonly.xscalawt.XScalaWT._
 import pl.writeonly.xscalawt.XScalaWT.Assignments._
 import pl.writeonly.scalar.view.JmsConsumer
 
-import pl.writeonly.scalar.view.JmsConsumer
 import pl.writeonly.scalar.view.faces._
+
+import org.eclipse.swt.widgets._
 
 trait MainWindow extends Runnable with StrictLogging {
 

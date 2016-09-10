@@ -13,6 +13,8 @@ import pl.writeonly.scala.util.SingleAbstractMethod._
 import org.eclipse.swt.widgets.Text
 import pl.writeonly.babel.entities.Lang.stringToLang
 
+import pl.writeonly.scala.util.SingleAbstractMethod._
+
 @org.springframework.stereotype.Controller
 class LangFace extends FaceBuilder[Lang] {
   @Resource var langService: ValueBean = _
