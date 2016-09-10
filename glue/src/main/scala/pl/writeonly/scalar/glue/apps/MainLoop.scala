@@ -4,12 +4,16 @@ import org.eclipse.swt.widgets.Text
 import com.typesafe.scalalogging.slf4j.StrictLogging
 import pl.writeonly.xscalawt.XScalarWT._
 import pl.writeonly.scalar.view.MainWindow
+import pl.writeonly.scalar.glue.mods.AppModule
+
+
 
 object MainLoop extends App with StrictLogging {
-
-  val context = AppContext
-  context.main(args)
-//  context.mainLoop.run
+//  val app = AppContext
+  val app = AppModule
+  app.main(args)
+  val loop = app.mainLoop
+  loop.run
 }
 
 @org.springframework.stereotype.Controller

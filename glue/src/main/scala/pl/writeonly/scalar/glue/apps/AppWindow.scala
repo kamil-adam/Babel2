@@ -1,7 +1,5 @@
 package pl.writeonly.scalar.glue.apps
 
-import com.typesafe.scalalogging.slf4j.StrictLogging
-
 import org.eclipse.jface.action.Action
 import org.eclipse.jface.action.IAction
 import org.eclipse.jface.action.MenuManager
@@ -11,29 +9,23 @@ import org.eclipse.jface.window.ApplicationWindow
 import org.eclipse.swt.SWT
 import org.eclipse.swt.widgets.Composite
 import org.eclipse.swt.widgets.Display
-import pl.writeonly.xscalawt.XScalaWT._
-import pl.writeonly.xscalawt.XScalaWT.Assignments._
+import org.eclipse.swt.widgets.Shell
+
 import com.typesafe.scalalogging.slf4j.StrictLogging
+
 import javax.annotation.PostConstruct
 import javax.jms.TextMessage
-import org.eclipse.swt.widgets.Shell
+import pl.writeonly.scalar.glue.mods.AppModule
 import pl.writeonly.scalar.view.MainWindow
-import pl.writeonly.scalar.glue.mods.BillingModule
-import com.google.inject.Guice
 
 object AppWindow extends App with StrictLogging {
-  val context = AppContext
-  context.main(args)
-//  val loop = context.mainLoop
-//  val app = new AppWindow(loop)
-//  val app = context.appWindow
+//  val app = AppContext
+    val app = AppModule
+  app.main(args)
+  val window = app.appWindow
   
-  val injector = Guice.createInjector(new BillingModule());
-  val app = injector.getInstance(classOf[AppWindow]);
-  
-
-  app.setBlockOnOpen (true);
-  app.open ();
+  window.setBlockOnOpen (true);
+  window.open ();
   Display.getCurrent ().dispose ();
 }
 //window: MainWindow
