@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>pl.writeonly.scalar</groupId>
+		<artifactId>data</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>doms</artifactId>
+	<packaging>jar</packaging>
+
+	<properties>
+		<org.apache.derby.version>10.9.1.0</org.apache.derby.version>
+		<org.datanucleus.version>3.1.1</org.datanucleus.version>
+		<springframework.version>3.1.2.RELEASE</springframework.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>pl.writeonly.scalar</groupId>
+			<artifactId>dpos</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>pl.writeonly.sailor</groupId>
+			<artifactId>sail</artifactId>
+			<!-- <version>1.0-SNAPSHOT</version> -->
+		</dependency>
+
+		<dependency>
+			<groupId>pl.writeonly.scala-minor</groupId>
+			<artifactId>scala-minor_2.10</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-core</artifactId>
+			<version>5.6.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.jdo</groupId>
+			<artifactId>jdo-api</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.datanucleus</groupId>
+			<artifactId>datanucleus-core</artifactId>
+			<version>${org.datanucleus.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.datanucleus</groupId>
+			<artifactId>datanucleus-rdbms</artifactId>
+			<version>${org.datanucleus.version}</version>
+		</dependency>
+
+		<!-- springframework -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jms</artifactId>
+			<version>${springframework.version}</version>
+		</dependency>
+	</dependencies>
+</project>
