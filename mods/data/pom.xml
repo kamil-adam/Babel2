@@ -14,6 +14,7 @@
 
 	<modules>
 		<module>dbms</module>
+		<module>doms</module>
 		<module>dpos</module>
 		<module>daos</module>
 		<module>comp</module>		
