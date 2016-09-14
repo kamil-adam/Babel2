@@ -4,6 +4,7 @@ import com.google.inject.AbstractModule
 import pl.writeonly.scalar.glue.apps._
 import com.typesafe.scalalogging.slf4j.StrictLogging
 import com.google.inject.Guice
+import pl.writeonly.scalar.view.faces.ConfigurationFace
 
 object AppModule extends App with StrictLogging {
   val injector = Guice.createInjector(new AppModule());
@@ -16,5 +17,7 @@ class AppModule extends AbstractModule {
   protected def configure() {
     bind(classOf[AppWindow])
     bind(classOf[MainLoop])
+    bind(classOf[ConfigurationFace])
+    bind(classOf[ConfigurationFace])
   }
 }

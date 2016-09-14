@@ -1,32 +1,40 @@
 package pl.writeonly.scalar.view
 
+import org.eclipse.swt.widgets.Shell
+
 import com.typesafe.scalalogging.slf4j.StrictLogging
 
-import javax.annotation.Resource
+import javax.inject.Inject
+import pl.writeonly.scalar.view.faces.BrowserFace
+import pl.writeonly.scalar.view.faces.ConfigurationFace
+import pl.writeonly.scalar.view.faces.LangFace
+import pl.writeonly.scalar.view.faces.PlayFace
+import pl.writeonly.scalar.view.faces.RecordFace
+import pl.writeonly.scalar.view.faces.RelationFace
+import pl.writeonly.scalar.view.faces.TranslateFace
+import pl.writeonly.scalar.view.faces.UseFace
+import pl.writeonly.scalar.view.faces.WordFace
+import pl.writeonly.xscalawt.XScalaWT.string2setText
+import pl.writeonly.xscalawt.XScalaWT.tabFolder
+import pl.writeonly.xscalawt.XScalarWT.contentDefault
+import pl.writeonly.xscalawt.XScalarWT.fileDialogOpen
+import pl.writeonly.xscalawt.XScalarWT.fileDialogSave
 
-import pl.writeonly.xscalawt.XScalarWT._
-import pl.writeonly.xscalawt.XScalaWT._
-import pl.writeonly.xscalawt.XScalaWT.Assignments._
-import pl.writeonly.scalar.view.JmsConsumer
-
-import pl.writeonly.scalar.view.faces._
-
-import org.eclipse.swt.widgets._
 
 trait MainWindow extends Runnable with StrictLogging {
 
-  @Resource var browserFace: BrowserFace = _
-  @Resource var configurationFace: ConfigurationFace = _
-  @Resource var langFace : LangFace = _
-  @Resource var playFace: PlayFace = _
-  @Resource var recordFace: RecordFace = _
-  @Resource var relationFace: RelationFace = _
-  @Resource var translateFace: TranslateFace = _
-  @Resource var useFace: UseFace = _
-  @Resource var wordFace: WordFace = _
+  @Inject var browserFace: BrowserFace = _
+  @Inject var configurationFace: ConfigurationFace = _
+  @Inject var langFace : LangFace = _
+  @Inject var playFace: PlayFace = _
+  @Inject var recordFace: RecordFace = _
+  @Inject var relationFace: RelationFace = _
+  @Inject var translateFace: TranslateFace = _
+  @Inject var useFace: UseFace = _
+  @Inject var wordFace: WordFace = _
 
-  @Resource var mainFace: Facade = _
-  @Resource var consumer: JmsConsumer = _
+  @Inject var mainFace: Facade = _
+  @Inject var consumer: JmsConsumer = _
 
   def run() = {
     consumer.start
