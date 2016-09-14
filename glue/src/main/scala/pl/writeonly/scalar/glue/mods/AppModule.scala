@@ -5,6 +5,14 @@ import pl.writeonly.scalar.glue.apps._
 import com.typesafe.scalalogging.slf4j.StrictLogging
 import com.google.inject.Guice
 import pl.writeonly.scalar.view.faces.ConfigurationFace
+import pl.writeonly.scalar.view.faces.BrowserFace
+import pl.writeonly.scalar.view.faces.PlayFace
+import pl.writeonly.scalar.view.faces.LangFace
+import pl.writeonly.scalar.view.faces.RecordFace
+import pl.writeonly.scalar.view.faces.TranslateFace
+import pl.writeonly.scalar.view.faces.UseFace
+import pl.writeonly.scalar.view.faces.RelationFace
+import pl.writeonly.scalar.view.faces.WordFace
 
 object AppModule extends App with StrictLogging {
   val injector = Guice.createInjector(new AppModule());
@@ -17,7 +25,14 @@ class AppModule extends AbstractModule {
   protected def configure() {
     bind(classOf[AppWindow])
     bind(classOf[MainLoop])
+    bind(classOf[BrowserFace])
     bind(classOf[ConfigurationFace])
-    bind(classOf[ConfigurationFace])
+    bind(classOf[LangFace])
+    bind(classOf[PlayFace])
+    bind(classOf[RecordFace])
+    bind(classOf[RelationFace])
+    bind(classOf[TranslateFace])
+    bind(classOf[UseFace])
+    bind(classOf[WordFace])
   }
 }
