@@ -4,8 +4,10 @@ import org.springframework.stereotype.Service
 import pl.writeonly.babel.daos.DaoCrud
 import pl.writeonly.babel.entities.Side
 import scala.collection.mutable.MutableList
+import com.google.inject.Inject
 
 @org.springframework.stereotype.Service
+@Inject
 class SideBean(@Resource(name = "daoImpl") val dao: DaoCrud) {
   def find() = dao.find(classOf[Side])
   def findName = find().foldLeft(new MutableList[String]())((l: MutableList[String], s: Side) => { l += s.name })

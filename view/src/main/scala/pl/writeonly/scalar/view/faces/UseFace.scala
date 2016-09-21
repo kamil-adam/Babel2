@@ -13,18 +13,22 @@ import org.eclipse.jface.viewers.TableViewer
 import pl.writeonly.scalar.view.cards.UseCard
 import pl.writeonly.scalar.view.Face
 import pl.writeonly.scalar.view.Facade
+import javax.inject.Inject
 
 @org.springframework.stereotype.Controller
 class UseFace extends Face {
-  @Resource var dialogFace: Facade = _
-  @Resource var sideService: SideBean = _
-  @Resource var csvService: CsvBean = _
-  @Resource var daoCsv: DaoCsv = _
-  @Resource var lernuQueryTP: DefaultTableProvider[LernuQuery] = _
+  @Inject var dialogFace: Facade = _
+  @Inject var sideService: SideBean = _
+  @Inject var csvService: CsvBean = _
+  @Inject var daoCsv: DaoCsv = _
+  @Inject var lernuQueryTP: DefaultTableProvider[LernuQuery] = _
 
+  @Inject
   @PostConstruct
   def init() {
-    lernuQueryTP.array = Array[LernuQuery](new LernuQuery("UseFace", "UseFace", "UseFace"))
+    val query = new LernuQuery("UseFace", "UseFace", "UseFace")
+    val array = Array[LernuQuery](query)
+    lernuQueryTP.array = array
   }
 
   def apply() = UseCard(this)
