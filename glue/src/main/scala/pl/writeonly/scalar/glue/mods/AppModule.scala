@@ -13,6 +13,8 @@ import pl.writeonly.scalar.view.faces.TranslateFace
 import pl.writeonly.scalar.view.faces.UseFace
 import pl.writeonly.scalar.view.faces.RelationFace
 import pl.writeonly.scalar.view.faces.WordFace
+import pl.writeonly.babel.daos.DaoCrud
+import pl.writeonly.babel.daos.DaoJdo
 
 object AppModule extends App with StrictLogging {
   val injector = Guice.createInjector(new AppModule());
@@ -34,5 +36,7 @@ class AppModule extends AbstractModule {
     bind(classOf[TranslateFace])
     bind(classOf[UseFace])
     bind(classOf[WordFace])
+    
+    bind(classOf[DaoCrud]).to(classOf[DaoJdo])
   }
 }
