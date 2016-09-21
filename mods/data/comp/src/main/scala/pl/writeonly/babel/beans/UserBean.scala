@@ -1,6 +1,7 @@
 package pl.writeonly.babel.beans
+
 import javax.annotation.Resource
-import org.springframework.stereotype.Service
+import javax.inject.Inject
 import pl.writeonly.babel.daos.DaoCrud
 import pl.writeonly.babel.entities.User
 import pl.writeonly.babel.exception.UserException

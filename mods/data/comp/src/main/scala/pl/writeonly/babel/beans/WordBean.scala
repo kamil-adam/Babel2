@@ -1,9 +1,9 @@
 package pl.writeonly.babel.beans
 
-import org.springframework.stereotype.Service
+import javax.annotation.Resource
+import javax.inject.Inject
 import pl.writeonly.babel.daos.DaoCrud
 import pl.writeonly.babel.entities.Word
-import javax.annotation.Resource
 
 @org.springframework.stereotype.Service
 class WordBean @Inject()(@Resource(name = "daoImpl") val dao: DaoCrud) {
