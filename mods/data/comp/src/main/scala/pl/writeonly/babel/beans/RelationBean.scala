@@ -5,7 +5,7 @@ import pl.writeonly.babel.daos.DaoCrud
 import pl.writeonly.babel.entities.Relation
 import javax.annotation.Resource
 @org.springframework.stereotype.Service
-class RelationBean (@Resource(name = "daoImpl") val dao: DaoCrud){
+class RelationBean  @Inject()(@Resource(name = "daoImpl") val dao: DaoCrud){
   val clazz = classOf[Relation]
 	def persist (relation:Relation) = dao.persist(relation)
 	def persistAll(relations :List[Relation]) = dao.persistAll(relations)

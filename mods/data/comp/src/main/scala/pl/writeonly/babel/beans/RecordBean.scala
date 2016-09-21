@@ -8,9 +8,10 @@ import pl.writeonly.babel.entities.User
 import pl.writeonly.scala.util.ToBoolean
 import scala.collection.mutable.MutableList
 import pl.writeonly.babel.entities.Relation
+import javax.inject.Inject
 
 @org.springframework.stereotype.Service
-class RecordBean(@Resource(name = "daoImpl") val dao: DaoCrud) extends ToBoolean {
+class RecordBean @Inject()(@Resource(name = "daoImpl") val dao: DaoCrud) extends ToBoolean {
   val clazz = classOf[Record]
   def persist(record: Record) = dao.persist(record)
   def persistAll(records: List[Record]) = dao.persistAll(records)

@@ -5,9 +5,10 @@ import javax.annotation.Resource
 import pl.writeonly.babel.entities.AbstractValue
 import pl.writeonly.babel.entities.Lang
 import pl.writeonly.babel.entities.Part
+import javax.inject.Inject
 
 @org.springframework.stereotype.Service
-class ValueBean(@Resource(name = "daoImpl") val dao: DaoCrud) {
+class ValueBean @Inject()(@Resource(name = "daoImpl") val dao: DaoCrud) {
 
   //
   def langs = dao.find(classOf[Lang])

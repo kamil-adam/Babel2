@@ -27,6 +27,7 @@ class AppModule extends AbstractModule {
   protected def configure() {
     bind(classOf[AppWindow])
     bind(classOf[MainLoop])
+    
     bind(classOf[BrowserFace])
     bind(classOf[ConfigurationFace])
     bind(classOf[LangFace])

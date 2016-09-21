@@ -5,7 +5,7 @@ import pl.writeonly.babel.daos.DaoCrud
 import pl.writeonly.babel.entities.User
 import pl.writeonly.babel.exception.UserException
 @org.springframework.stereotype.Service
-class UserBean(@Resource(name =  "daoImpl") val dao: DaoCrud) {
+class UserBean @Inject()(@Resource(name =  "daoImpl") val dao: DaoCrud) {
   val clazz = classOf[User]
 
   //rejstracja

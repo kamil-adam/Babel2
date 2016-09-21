@@ -1,17 +1,17 @@
 package pl.writeonly.babel.beans
 
-import pl.writeonly.babel.entities.Word
+import scala.collection.mutable.WrappedArray.ofRef
+
+import javax.inject.Inject
 import pl.writeonly.babel.entities.Record
-import scala.collection.mutable.LinkedList
-import scala.collection.mutable.MutableList
+import pl.writeonly.babel.entities.Word
 import pl.writeonly.scala.util.Genie
 import pl.writeonly.scala.util.ToBoolean
-import scala.collection.mutable.WrappedArray.ofRef
 /**
  * zajmuje się mieszaniem i sprawdzaniem słów
  */
 //@org.springframework.stereotype.Component
-class Heap(val data: Array[Record]) extends Genie with ToBoolean {
+class Heap @Inject()(val data: Array[Record]) extends Genie with ToBoolean {
   //opakowane dane
   val wrapped = new ofRef[Record](data)
   //dane wylosowane

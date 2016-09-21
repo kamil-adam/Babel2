@@ -19,13 +19,14 @@ import pl.writeonly.scalar.view.providers._
 import org.eclipse.swt.widgets.Combo
 import pl.writeonly.scalar.view.Face
 import pl.writeonly.scalar.view.cards.TranslateCard
+import javax.inject.Inject
 
 @org.springframework.stereotype.Controller
 class TranslateFace extends Face {
-  @Resource var langTableProvider: LangTableProvider = _
-  @Resource var sideService: SideBean = _
-  @Resource var translateService: TranslateBean = _
-  @Resource var valueService: ValueBean = _
+  @Inject var langTableProvider: LangTableProvider = _
+  @Inject var sideService: SideBean = _
+  @Inject var translateService: TranslateBean = _
+  @Inject var valueService: ValueBean = _
 
   @PostConstruct
   private def init {

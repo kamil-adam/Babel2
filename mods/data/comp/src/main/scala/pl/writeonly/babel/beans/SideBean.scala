@@ -1,10 +1,10 @@
 package pl.writeonly.babel.beans
-import javax.annotation.Resource
-import org.springframework.stereotype.Service
+
+import scala.collection.mutable.MutableList
+
+import javax.inject.Inject
 import pl.writeonly.babel.daos.DaoCrud
 import pl.writeonly.babel.entities.Side
-import scala.collection.mutable.MutableList
-import com.google.inject.Inject
 
 @org.springframework.stereotype.Service
 class SideBean @Inject() (@Resource(name = "daoImpl") val dao: DaoCrud) {

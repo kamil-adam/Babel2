@@ -6,7 +6,7 @@ import pl.writeonly.babel.entities.Word
 import javax.annotation.Resource
 
 @org.springframework.stereotype.Service
-class WordBean(@Resource(name = "daoImpl") val dao: DaoCrud) {
+class WordBean @Inject()(@Resource(name = "daoImpl") val dao: DaoCrud) {
   val clazz = classOf[Word]
   def persist(word: Word) = dao.persist(word)
   def persistAll(words: List[Word]) = dao.persist(words)
