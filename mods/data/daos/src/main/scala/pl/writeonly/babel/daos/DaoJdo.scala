@@ -26,7 +26,14 @@ class DaoJdo extends JdoDaoSupport with DaoCrud {
   def get[T](clazz: Class[T], id: Int): T = getJdoTemplate.getObjectById(clazz, id)
   def get[T](clazz: Class[T], id: BigInteger): T = getJdoTemplate.getObjectById(clazz, id)
   //  def find[T](c: Class[T]) =  List(getJdoTemplate.find(c).toArray : _*).asInstanceOf[List[T]]
-  def find[T](c: Class[T]) = getJdoTemplate.find(c).toArray.map(as[T](_)).toList
+  def find[T](c: Class[T]) : List[T] = {
+    val template = getJdoTemplate
+    val finded = template.find(c)
+    val array = finded.toArray
+    val mapped = array.map(as[T](_))
+    val list = mapped.toList
+    return list
+  }
   def as[T](entity: Object) =   entity.asInstanceOf[T]
   def find[T](c: Class[T], s: String) = List(getJdoTemplate.find(c, s).toArray: _*).asInstanceOf[List[T]]
   def findOne[T](c: Class[T], s: String): T = getJdoTemplate.find(c, s).iterator.next
